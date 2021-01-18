@@ -8,7 +8,6 @@ services:
       - my-app
   www1:
     build: node-app1/.
-    
     networks:
       my-app:
         aliases:
